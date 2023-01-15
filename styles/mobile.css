@@ -1,0 +1,118 @@
+@media screen and (max-width : 576px){
+/*-------------------
+     header start  
+--------------------*/
+.header{
+   margin: 30px 50px;
+}
+
+/* nav start  */
+.nav{
+   flex-direction: column;
+   gap: 30px;
+}
+.nav ul{
+    flex-direction: column;
+    text-align: center;
+}
+/* nav end  */
+
+/* banner start  */
+.banner{
+    margin-top: 80px;
+
+}
+.banner-title{
+    font-size: 35px;
+}
+/* banner end  */
+
+/*-----------------
+     header end 
+------------------*/
+
+/*------------------
+      main start 
+------------------*/
+main{
+    margin: 100px 30px;
+}
+
+/* features start  */
+.features{
+   flex-direction: column-reverse;
+   gap: 50px;
+   text-align: center;
+}
+.features-img{
+    grid-template-columns: repeat(1 , 1fr);
+}
+/* features end  */
+
+/* more-features start  */
+.more-features-container{
+    flex-direction: column;
+    margin-top: 70px;
+}
+.more-features-img img{
+    width: 100%;
+    height: 500px;
+}
+.special-button .random-btn{
+ top: 20px;
+ left: 25%;
+}
+/* more-features end  */
+
+/* some fact start  */
+.some-facts{
+    margin-top: 180px;
+    text-align: center;
+}
+.some-fact-desc{
+    width: 100%;
+}
+.facts{
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+}
+.fact{
+  width: 75%;
+}
+/* some fact end */
+
+/* sponsors start  */
+.sponsors-logo{
+   flex-direction: column;
+   align-items: center;
+   gap: 50px;
+}
+/* sponsors rnd  */
+
+/* contact start  */
+.contact-desc{
+    text-align: center;
+}
+.contact-form input,textarea{
+    width: 85%;
+}
+/* contact end */
+
+/*------------------
+      main end 
+------------------*/
+
+
+/*---------------------
+      footer start 
+----------------------*/
+
+footer p{
+   font-size: 14px;
+}
+
+/*---------------------
+      footer end 
+----------------------*/
+
+}
